@@ -1,6 +1,6 @@
 package cn.zzu.dao;
 
-import cn.zzu.model.User;
+import cn.zzu.model.vo.UserLoginVo;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -17,7 +17,7 @@ public class UserDao extends BaseDao {
         return sqlSessionTemplate.selectOne(NAMESPACE + "findCount");
     }
 
-    public List<User> getAllUser(){
+    public List<UserLoginVo> getAllUser(){
         return sqlSessionTemplate.selectList(NAMESPACE+"selectAll");
     }
 

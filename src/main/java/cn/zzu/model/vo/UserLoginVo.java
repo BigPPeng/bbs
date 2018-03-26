@@ -1,14 +1,17 @@
-package cn.zzu.model;
+package cn.zzu.model.vo;
+
+import java.util.Date;
 
 /**
  * @author hongpeng.cui
- * @create 2018--26-下午4:21
+ * @create 2018--26-下午5:19
+ * 用户登录信息VO
  */
-public class User {
-
+public class UserLoginVo {
     private Integer id;
     private String name;
     private String password;
+    private Date loginTime;
 
     public Integer getId() {
         return id;
@@ -34,13 +37,21 @@ public class User {
         this.password = password;
     }
 
+    public Date getLoginTime() {
+        return loginTime;
+    }
+
+    public void setLoginTime(Date loginTime) {
+        this.loginTime = loginTime;
+    }
 
     @Override
     public String toString() {
-        return "User{" +
+        return "UserLoginVo{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
+                ", loginTime=" + loginTime +
                 '}';
     }
 }

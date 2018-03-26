@@ -1,6 +1,6 @@
 package cn.zzu.controller;
 
-import cn.zzu.model.User;
+import cn.zzu.model.vo.UserLoginVo;
 import cn.zzu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,7 +21,7 @@ public class UserController {
 
     @RequestMapping(value = "/201.html")
     public ModelAndView dsMonitor() {
-        List<User> userList = service.showAllUser();
+        List<UserLoginVo> userList = service.showAllUser();
         ModelAndView mv = new ModelAndView("/user");
         mv.addObject("userList", userList);
         return mv;
