@@ -12,6 +12,8 @@ public class UserLoginVo {
     private String name;
     private String password;
     private Date loginTime;
+    private int loginResult;
+    private int userStatus;
 
     public Integer getId() {
         return id;
@@ -45,6 +47,23 @@ public class UserLoginVo {
         this.loginTime = loginTime;
     }
 
+    public int getLoginResult() {
+        return loginResult;
+    }
+
+    public void setLoginResult(int loginResult) {
+        this.loginResult = loginResult;
+    }
+
+    public int getUserStatus() {
+        return userStatus;
+    }
+
+    public void setUserStatus(int userStatus) {
+        this.userStatus = userStatus;
+    }
+
+
     @Override
     public String toString() {
         return "UserLoginVo{" +
@@ -52,6 +71,8 @@ public class UserLoginVo {
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
                 ", loginTime=" + loginTime +
+                ", loginResult=" + loginResult +
+                ", userStatus=" + userStatus +
                 '}';
     }
 }

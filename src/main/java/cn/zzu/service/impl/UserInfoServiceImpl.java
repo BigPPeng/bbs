@@ -16,15 +16,15 @@ public class UserInfoServiceImpl implements UserInfoService{
         return null;
     }
 
-    public boolean userChangePass(int userId, String oldPass, String newPass) {
-        return false;
+    public int userChangePass(int userId, String oldPass, String newPass) {
+        return 0;
     }
 
     public boolean userNameExit(String userName) {
         return false;
     }
 
-    public boolean userRegister(User user) {
-        return false;
+    public int userRegister(User user) {
+        return 0;
     }
 }
