@@ -1,0 +1,56 @@
+html { font-size:12px; font-family:'Microsoft YaHei' }
+body, button, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form,pre { margin:0; padding:0; list-style-type:none; border:0;font-size:100%; }
+h1, h2, h3, h4, h5, h6{}
+i,em,u{font-style:normal;}
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; width:0px; height:0px; font-size:0px; line-height:0; }
+.clearfix:after { clear:both; content:' '; display:block; font-size:0px; line-height:0px; visibility:hidden; width:0px; height:0px; }
+body{overflow-x:hidden; -webkit-backface-visibility:hidden}
+
+a { color:#464646; text-decoration:none; outline: none;}
+a:hover { color:#f60; text-decoration:underline; }
+
+
+/*顶栏*/
+.topBar{background-color:#f4f4f4;height:29px;border-bottom:1px solid #f9f9f9;line-height:29px;width:100%}
+.topBar .topBarL{margin-left: 100px;}
+.topBar .topBarL span{color:#666}
+.topBar .topBarL img{vertical-align:middle}
+.topBar .topBarR{float:right;margin-right: 100px;}
+.topBar .topBarR a:hover{text-decoration:none;}
+.topBar .topBarR li{float:left;position:relative;z-index:100}
+.topBar .topBarR .pipe{color:#ddd;padding:0 5px;}
+
+/*logo和搜索栏*/
+.searchBar{width:1000px;margin:0 auto;clear:both;overflow:hidden;padding-top:40p-x;}
+.searchBar .logo{display: inline-block; *zoom:1; *display:inline;}
+/*搜索*/
+.searchBar .search{display: inline-block; *zoom:1; *display:inline;  overflow:hidden; margin-left: 100px;margin-bottom: 15px}
+.search .searchBox{overflow:hidden;clear:both}
+.search .searchBox label{position: absolute;z-index: 2;top: 10px;left: 6px;color: #9e9e9e;}
+.search .searchBox .searchFrame{height: 36px;border: 3px solid #de0304;overflow: hidden;float: left;position: relative;}
+.search .searchBox .searchFrame .search-combox{width: 360px;padding: 0 105px 0 5px;background-color: #fff;overflow: hidden;}
+.search .searchBox .searchFrame .search-combox input{width: 100%;padding: 9px 0;line-height: 18px;background-color: #fff;border: 0;outline: 0;font-size: 14px;}
+.search .searchBox .searchFrame .search-btn{display: inline;float: right;width: 100px;height: 36px;overflow: hidden;position: absolute;top: 0;right: 0;}
+.search .searchBox .searchFrame .search-btn input{width: 100px;height: 36px;background-color: #de0304;font-size: 18px;font-weight: 700;color: #fff;border: 0;outline: 0;cursor: pointer;text-align: center;letter-spacing: 8px;text-indent: 8px;}
+
+/*导航栏*/
+.nav_bd{margin-top:2px;clear:both;background-color:#f4f4f4;height: 39px; line-height: 39px; overflow: hidden;}
+.navBar{width:1200px;margin:0 auto;position:relative;z-index:6}
+.navBar .ylType{width:210px;height:39px;line-height:39px;position:absolute;top:0;left:0}
+.navBar .ylType .allType{position:relative;width:210px}
+.navBar .ylType .allType h2{font-size:15px;font-weight:bold;}
+.navBar .ylType .allType h2 a{display:block;color:#000;padding-left:20px;line-height: 39px}
+.navBar .ylType .allType h2 a:hover{text-decoration:none;}
+.navBar .ylType .allType h2 a span{position: absolute;top: 18px;right: 40px;display: block;border: 8px solid #fff;border-color: #fff transparent transparent transparent;}
+.navBar .ylType .allType h2.on a span{position:absolute;top:8px;border-color: transparent transparent #fff transparent;}
+.navBar .ylType .line{height:1px;background-color:#c90000;width:206px}
+.navBar .nav_c{height:39px;line-height:39px;position:relative;left:600px;width:990px;clear:both;top:0;}
+.navBar .nav_c_l{position:absolute;left:0;top:0}
+.navBar .nav_c_l li{float:left;}
+.navBar .nav_c_l li.on{background-color:#c70b0b;}
+.navBar .nav_c_l li a{width: 80px;text-align: center;display: block;color:#000;cursor:pointer;font-size:15px;font-weight:700;text-decoration:none}
+.navBar .nav_c_l li a:hover{color:#fff;background-color:#c70b0b;}
+.navBar .nav_c_r{position:absolute;clear:both;right:10px;top:7px}
+.navBar .nav_c_r .pifa{background-image:url(/images/home/pifa.jpg);background-repeat:no-repeat;width:96px;height:25px;line-height:25px;text-align:center;margin-right:10px;float:left;font-size:14px}
+.navBar .nav_c_r .pifa a{color:#fff;line-height:25px;text-decoration:none}
+.navBar .nav_c_r .pifa a:hover{text-decoration:none}

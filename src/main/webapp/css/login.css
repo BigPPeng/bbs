@@ -1,0 +1,37 @@
+body{background-color:#f4f4f4;}
+/*页面主要布局*/
+.wrapSlide{width:1200px;clear:both;margin:0 auto;min-height:600px;background-image: url(../images/login/p006.jpg);background-repeat: no-repeat;}
+
+.wrapSlide .tabshow{display: none;}
+.wrapSlide .xieyi{width: 60%;margin: 0 auto;max-height: 500;}
+.wrapSlide .xieyi h1{margin: 0;padding: 20px;line-height: 50px;font-size: 30px}
+.wrapSlide .xieyi li{line-height: 30px;font-size: 20px;border-bottom-style:solid;border-bottom-width: 1px; }
+
+.wrapSlide .res{width: 60%;margin: 0 auto;max-height: 500;}
+.wrapSlide .res h1{margin: 0;padding: 20px;line-height: 50px;font-size: 30px}
+.wrapSlide .res li{line-height: 30px;}
+.wrapSlide .res table{width: 100%}
+.wrapSlide .res table td{line-height: 25px;margin: 0;padding: 0;}
+.wrapSlide .res .title{font-size: 15px;width: 15%;}
+.wrapSlide .res input{line-height: 20px;width: 260px;padding: 0;margin: 0;}
+.wrapSlide .res .tip{width: 40%;color: red;font-size: 12px;padding: 0;margin: 0;}
+
+.next_do{margin:0 auto;padding:0;height:39px;line-height:39px;width:1200px;}
+.next_do ul{height: 100%;}
+.next_do ul li{float: right;width: 140px;height: 100%;display: block;line-height: 30px;background-color: pink;}
+.next_do ul li a{width: 140px;text-align: center;display: block;color:#000;cursor:pointer;font-size:15px;font-weight:700;text-decoration:none}
+.next_do ul li:hover{background-color: red;}
+
+
+/*底部*/
+.footer{clear: both;}
+.footer .footer-hd{border-top: 1px solid #e4e4e4;border-bottom:1px dashed #aaa;padding:10px 0;overflow:hidden;}
+.yl-helper .unit{float:left;width:25%;border-right:1px solid #eee;margin-right:-1px}
+.yl-helper .unit .unit-wrap{padding:0 25px;overflow:hidden}
+.yl-helper .unit .unit-wrap h4{margin-bottom:5px;color:#3e3e3f;font-weight:700;font-size:14px;}
+.yl-helper .unit .unit-wrap h4 img{vertical-align:middle}
+.yl-helper .unit .unit-wrap li{float:left;width:50%;height:21px;line-height:21px;overflow:hidden}
+.yl-helper .unit-b .unit-wrap li{width:33%}
+.yl-helper .unit-d .unit-wrap{border-right:none}
+.yl-helper .unit-d .unit-wrap li{width:33%}
+.footer .footer-fd-c{text-align:center;width:690px;margin:0 auto;padding-top: 5px;}

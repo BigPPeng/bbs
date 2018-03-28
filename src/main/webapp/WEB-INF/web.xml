@@ -70,4 +70,13 @@
         <session-timeout>15</session-timeout>
     </session-config>
 
+    <!-- JSP配置 -->
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <el-ignored>false</el-ignored>
+            <scripting-invalid>true</scripting-invalid>
+            <include-prelude>/WEB-INF/jsp/taglib.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>
 </web-app>

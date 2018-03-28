@@ -14,7 +14,7 @@ public class UserController {
 
     @RequestMapping(value = "/201.html")
     public ModelAndView dsMonitor() {
-        ModelAndView mv = new ModelAndView("/user");
+        ModelAndView mv = new ModelAndView("index");
         return mv;
     }
 

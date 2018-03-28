@@ -2,7 +2,6 @@
 
 <html>
     <body>
-        <h2>Hello World!</h2>
-        <a href="/bbs/201.html" >得到用户信息</a>
+        <jsp:forward page="WEB-INF/jsp/index.jsp"></jsp:forward>
     </body>
 </html>
